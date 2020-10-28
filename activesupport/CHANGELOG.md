@@ -1,3 +1,7 @@
+*   Remove deprecated fallback to `I18n.default_local` when `config.i18n.fallbacks` is empty.
+
+    *Rafael Mendonça França*
+
 *   `require_dependency` has been documented to be _obsolete_ in `:zeitwerk`
     mode. The method is not deprecated as such (yet), but applications are
     encouraged to not use it.
